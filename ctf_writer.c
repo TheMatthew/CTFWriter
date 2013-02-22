@@ -1,7 +1,7 @@
 /*
- * babeltrace-log.c
+ * ctf_writer.c
  *
- * BabelTrace - Convert Text Log to CTF
+ * This is from BabelTrace - Convert Text Log to CTF
  *
  * Copyright 2010-2011 EfficiOS Inc. and Linux Foundation
  *
@@ -26,6 +26,8 @@
  * SOFTWARE.
  *
  * Depends on glibc 2.10 for getline().
+ * 
+ * Modified by Matthew Khouzam 2013
  */
 
 #define _GNU_SOURCE
